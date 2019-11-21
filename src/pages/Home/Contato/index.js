@@ -5,8 +5,8 @@ function Contato() {
     return (
         <div>
             <section id="formulario">
-                    <div class="content">
-                        <h2 class="section-title">Ficou interessado?</h2>
+                    <div className="content">
+                        <h2 className="section-title">Ficou interessado?</h2>
                         <h4>Realize sua pré-inscrição para acompanhar o nosso lançamento.</h4>
                         <form action="">
                             <input type="email" name="email" placeholder="Digite seu melhor e-mail"/>
