@@ -1,0 +1,54 @@
+:root {
+  --main-dark-purple: #3D2F57;
+  --main-light-purple: #7A6AAA;
+  --alt-color-1: #B89FFF;
+  --alt-color-2: #6933FF;
+  --alt-color-3: #7C4DFF;
+}
+
+header {
+  height: 60px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #232323;
+}
+
+.libellum {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.libellum {
+  letter-spacing: .2rem;
+  font-weight: 700;
+}
+
+.libellum img {
+  margin-right: 0.54rem;
+  height: 1.8rem;
+}
+
+header {
+  background: transparent;
+  transition:all .25s ease-in-out .0s;
+}
+
+header #login {
+  padding: 13px 30px;
+  background: var(--main-light-purple);
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.fixed {
+  background: var(--main-dark-purple);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0!important;
+  z-index: 3;
+}
