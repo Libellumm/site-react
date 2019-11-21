@@ -1,11 +1,19 @@
 import React from 'react';
+import './footer.css';
+
+import IconLogo from '../../assets/icon/dragonfly.svg';
+
+import Facebook from '../../assets/icon/social/facebook-f-brands.svg';
+import LinkedIn from '../../assets/icon/social/linkedin-in-brands.svg';
+import Twitter from '../../assets/icon/social/twitter-brands.svg';
+import Whatsapp from '../../assets/icon/social/whatsapp-brands.svg';
 
 function Footer() {
   return (
     <footer>
       <div className="container">
         <div>
-          <h1 className="libellum"><img src="/img/icon/dragonfly.svg" alt="Libellum" /> Libellum</h1>
+          <h1 className="libellum"><img src={IconLogo} alt="Libellum" /> Libellum</h1>
         </div>
         
         <div className="contato">
@@ -15,10 +23,10 @@ function Footer() {
         </div>
 
         <div className="redes-sociais">
-          <a href=""><img src="/img/icon/social/facebook-f-brands.svg" alt="" width="30" height="30" /></a>
-          <a href=""><img src="/img/icon/social/linkedin-in-brands.svg" alt="" width="30" height="30" /></a>
-          <a href=""><img src="/img/icon/social/twitter-brands.svg" alt="" width="30" height="30" /></a>
-          <a href=""><img src="/img/icon/social/whatsapp-brands.svg" alt="" width="30" height="30" /></a>
+          <a href=""><img src={Facebook} alt="" width="30" height="30" /></a>
+          <a href=""><img src={LinkedIn} alt="" width="30" height="30" /></a>
+          <a href=""><img src={Twitter} alt="" width="30" height="30" /></a>
+          <a href=""><img src={Whatsapp} alt="" width="30" height="30" /></a>
         </div>
       </div>
       
