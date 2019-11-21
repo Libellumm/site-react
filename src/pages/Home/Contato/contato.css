@@ -72,16 +72,3 @@ input[type=submit] {
 input[type=submit]:hover {
     background: var(--alt-color-3);
 }
-
-input[type=email],
-input[type=submit] {
-    width: 100%;
-}
-
-input[type=submit] {
-    margin-top: 10px;
-}
-
-form {
-    flex-direction: column
-}
