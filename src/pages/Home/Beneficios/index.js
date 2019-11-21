@@ -1,4 +1,9 @@
 import React from 'react';
+import './beneficios.css';
+import Computer from '../../../assets/icon/home/computer.svg';
+import Clock from '../../../assets/icon/home/clock.svg';
+import Customize from '../../../assets/icon/home/customize.svg';
+
 
 function Beneficios() {
     return (
@@ -10,7 +15,7 @@ function Beneficios() {
           <div className="container">
             <div className="item">
               <div className="img">
-                <img src="/img/icon/home/computer.svg" width="100" height="100" alt="Automatização" />
+                <img src={Computer} width="100" height="100" alt="Automatização" />
               </div>
               <h4>Automatização</h4>
               <p>Envie certificados de participação do seu evento automaticamente.</p>
@@ -18,7 +23,7 @@ function Beneficios() {
 
             <div className="item">
               <div className="img">
-                <img src="/img/icon/home/clock.svg" width="100" height="100" alt="Agilidade" />
+                <img src={Clock} width="100" height="100" alt="Agilidade" />
               </div>
               <h4>Agilidade</h4>
               <p>Gere listas de participantes que compareceram no seu evento de forma fácil e rápida.</p>
@@ -26,7 +31,7 @@ function Beneficios() {
 
             <div className="item">
               <div className="img">
-                <img src="/img/icon/home/customize.svg" width="100" height="100" alt="Customização" />
+                <img src={Customize} width="100" height="100" alt="Customização" />
               </div>
               <h4>Customização</h4>
               <p>Personalize o seu certificado de acordo com seu evento</p>
