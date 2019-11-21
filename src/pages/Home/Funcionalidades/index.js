@@ -1,4 +1,5 @@
 import React from 'react';
+import './funcionalidades.css';
 
 function Funcionalidades() {
     return (
