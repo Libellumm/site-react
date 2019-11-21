@@ -30,3 +30,8 @@ footer .copyright {
   padding: 12px 0;
   font-size: 14px;
 }
+
+footer .libellum img {
+  margin-right: 0.9rem;
+  height: 3rem;
+}
