@@ -2,9 +2,13 @@ import React from 'react';
 
 function Menu() {
   return(
-    <div>
-      <h1>Menu</h1>
-    </div>
+    <header id="menu">
+      <a href="#" className="libellum h4"><img src="/img/icon/dragonfly.svg" alt="Libellum" />Libellum</a>
+
+      <nav>
+        <a href="/dashboard" id="login">Login</a>
+      </nav>
+    </header>
   );
 }
 
