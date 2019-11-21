@@ -9,4 +9,4 @@ function Contato() {
     );
 }
 
-export default Contatp;
+export default Contato;
