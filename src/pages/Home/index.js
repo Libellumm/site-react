@@ -10,12 +10,12 @@ import Footer from '../../components/Footer'
 function Home(){
     return(
       <div>
-        <Menu />
+        <Menu home />
         <Banner />
         <Beneficios />
         <Funcionalidades />
         <Contato />
-        <Footer />
+        <Footer home />
       </div>
     );
 }
