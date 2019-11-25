@@ -15,7 +15,7 @@ function Menu({ home }) {
           <a href="/dashboard" id="login">Login</a>
         </nav>
         :
-        ""
+        <a href="/" id="logout">Sair</a>
       }
     </header>
   );
