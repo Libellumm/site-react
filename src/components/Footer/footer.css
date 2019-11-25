@@ -35,3 +35,12 @@ footer .libellum img {
   margin-right: 0.9rem;
   height: 3rem;
 }
+
+footer.dashboard {
+  background: #fafafa;
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+}
