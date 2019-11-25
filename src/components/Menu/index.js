@@ -3,14 +3,20 @@ import './menu.css';
 
 import IconLogo from '../../assets/icon/dragonfly.svg';
 
-function Menu() {
+function Menu({ home }) {
   return(
-    <header id="menu">
+    <header id="menu" className={ home ? '' : 'dashboard' }>
       <a href="#" className="libellum h4"><img src={IconLogo} alt="Libellum" />Libellum</a>
 
-      <nav>
-        <a href="/dashboard" id="login">Login</a>
-      </nav>
+      { 
+        home 
+        ?
+        <nav>
+          <a href="/dashboard" id="login">Login</a>
+        </nav>
+        :
+        ""
+      }
     </header>
   );
 }
