@@ -10,7 +10,7 @@ import Icone6 from '../../../assets/icon/calendar-alt-regular.svg';
 
 function Statistic() {
     return(
-        <div>
+        <main>
             <div className="cabecalho">
                 <h2>
                     Início
@@ -86,7 +86,7 @@ function Statistic() {
             </section>
 
            
-        </div>
+        </main>
     );
 }
 
