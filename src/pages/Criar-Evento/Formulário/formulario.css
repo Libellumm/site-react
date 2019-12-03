@@ -1,0 +1,45 @@
+main{
+    padding: 50px 30px;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 40px auto 0;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+form div {
+    width: 49%;
+}
+
+input[type=submit] {
+    background-color: #3D2F57;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+input[type=submit]:hover {
+    background-color: #513e74;
+}
