@@ -9,13 +9,13 @@ function Menu({ home }) {
       <a href="#" className="libellum h4"><img src={IconLogo} alt="Libellum" />Libellum</a>
 
       { 
-        home 
+          home 
         ?
         <nav>
           <a href="/dashboard" id="login">Login</a>
         </nav>
         :
-        <a href="/" id="logout">Sair</a>
+          <a href="/" id="logout">Sair</a>
       }
     </header>
   );
