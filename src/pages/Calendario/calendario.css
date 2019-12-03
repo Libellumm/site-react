@@ -1,0 +1,77 @@
+main {
+    padding: 50px 30px;
+}
+
+.cabecalho {
+  max-width: 1400px; /* Define uma largura máxima para o cabeçalho*/
+}
+
+.criar {
+    background-color:  #3D2F57;
+    color: #ffffff;
+    font-size: 14px;
+    height: 100%;
+    padding: 12px 15px;
+    line-height: 1; /*Altura da linha, como se fosse um padding relacionado a fonte*/
+    border-radius: 5px; /*curva relacionada a borda de um detalhe ou imagem*/
+}
+
+.action {
+    display: flex; /*flexbox*/
+    justify-content: space-between; /*separação entre os itens*/
+    margin-top: 30px; /*espaço entre dois elementos em cima*/
+}
+
+.calendario {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap; /*quebra linha*/
+}
+
+.card {
+    background: #ffffff;
+    padding: 12px 15px;
+    box-shadow: 2px 4px 8px #cccccc; /*2 para a direita 4 para baixo 8 intensidade do blur*/
+    display: flex;
+    width: 300px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.data {
+    display: flex; /*padrão colocar do lado do outro /linha*/
+    flex-direction: column;
+    background-color: #7A6AAA;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.dia {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mes {
+    text-align: center;
+    text-transform: uppercase; /*transformar texto em caixa alta*/
+    font-size: 12px;
+}
+
+.conteudo {
+    margin-left: 10px;
+}
+
+.conteudo h4 { /*estilizando o h4 dentro do conteúdo*/
+    font-size: 18px;
+}
+
+.conteudo span {
+    font-size: 11px;
+}
+
+input#date {
+    border: 1px solid #d5d5d5;
+}
+
+::-webkit-datetime-edit { padding: 10px; } /* Adiciona padding no input de data */
