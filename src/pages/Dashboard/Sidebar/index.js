@@ -18,7 +18,7 @@ function Sidebar(){
             <i className="material-icons mdc-list-item__graphic" aria-hidden="true">dashboard</i>
             <span className="mdc-list-item__text">Início</span>
           </a>
-          <a className="mdc-list-item" href="/evento">
+          <a className="mdc-list-item" href="/eventos">
             <i className="material-icons mdc-list-item__graphic" aria-hidden="true">event</i>
             <span className="mdc-list-item__text">Eventos</span>
           </a>
