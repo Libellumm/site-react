@@ -4,6 +4,7 @@ import './reset.css';
 import './App.css';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
+import Calendario from './pages/Calendario';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/dashboard" component={Dashboard} />
+        <Route path="/eventos" component={Calendario} />
       </Switch>
     </BrowserRouter>
   );
