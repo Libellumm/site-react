@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 
-function Sidebar(){
+function Sidebar(props){
     return (
 
     <aside className="mdc-drawer">
@@ -14,7 +14,7 @@ function Sidebar(){
       </div>
       <div className="mdc-drawer__content">
         <nav className="mdc-list">
-          <a className="mdc-list-item mdc-list-item--activated" href="/dashboard" aria-current="page">
+          <a className="mdc-list-item" href="/dashboard" aria-current="page">
             <i className="material-icons mdc-list-item__graphic" aria-hidden="true">dashboard</i>
             <span className="mdc-list-item__text">Início</span>
           </a>

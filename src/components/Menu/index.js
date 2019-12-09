@@ -12,7 +12,7 @@ function Menu({ home }) {
           home 
         ?
         <nav>
-          <a href="/dashboard" id="login">Login</a>
+          <a href="/login" id="login">Login</a>
         </nav>
         :
           <a href="/" id="logout">Sair</a>
