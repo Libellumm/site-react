@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Calendario from './pages/Calendario';
 import Formulário from './pages/Criar-Evento';
+import Validarpresença from './pages/Validar-Presença';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/eventos" component={Calendario} />
         <Route path="/criar-evento" component={Formulário} />
+        <Route path="/validar-presenca" component={Validarpresença} />
       </Switch>
     </BrowserRouter>
   );
