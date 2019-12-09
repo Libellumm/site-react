@@ -26,7 +26,7 @@ function Calendario() {
     
         <div className="calendario">
     
-          <div className="card">
+          <a className="card" href="/validar-presenca">
             <div className="data">
               <span className="dia">01</span>
               <span className="mes">Nov</span>
@@ -37,7 +37,7 @@ function Calendario() {
               <span>Tecnologia</span>
     
             </div>
-          </div>
+          </a>
     
           <div className="card">
               <div className="data">
