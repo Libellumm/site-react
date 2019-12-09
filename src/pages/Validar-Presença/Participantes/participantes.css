@@ -1,0 +1,13 @@
+table {
+    margin-top: 40px;
+}
+
+th {
+    width: 400px;
+    height: 40px;
+}
+
+td {
+    width: 400px;
+    height: 15px;
+}
