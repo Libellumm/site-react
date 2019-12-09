@@ -19,14 +19,7 @@ function Descrição() {
             </div>
 
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
-            sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br/>
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis<br/>
-            aute irure dolor in reprehenderit in voluptate velit esse<br/>
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br/>
-            cupidatat non proident, sunt in culpa qui officia deserunt<br/>
-            mollit anim id est laborum."
+            "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto <br/>nível com tipagem dinâmica fraca e multi-paradigma. Juntamente com HTML e CSS, o <br/>JavaScript é uma das três principais tecnologias da World Wide Web."
             </p>
 
         </div>
