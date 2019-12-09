@@ -1,0 +1,29 @@
+h4 {
+    margin-top: 3px;
+    font-size: 22px;
+}
+
+h5 {
+    margin-top: 25px;
+    margin-right: 280px;
+}
+
+.descrição {
+    display: flex;
+
+}
+
+.criar {
+    background-color:  #3D2F57;
+    color: #ffffff;
+    font-size: 14px;
+    height: 100%;
+    padding: 6px 8px;
+    margin-top: 25px;
+    line-height: 1; /*Altura da linha, como se fosse um padding relacionado a fonte*/
+    border-radius: 5px; /*curva relacionada a borda de um detalhe ou imagem*/
+}
+
+p {
+    margin-top: 10px;
+}
